@@ -1,48 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sample Tailwind Page</title>
-
-    <!-- External Tailwind CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
-
-    <!-- Custom Styles (optional) -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gautam Bhatt - Full-Stack Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-gray-50 text-gray-900 font-sans">
 
-<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-900 text-white py-6 text-center">
+    <h1 class="text-3xl font-bold">Gautam Bhatt – Full-Stack Developer</h1>
+  </header>
 
-    <!-- Header -->
-    <header class="bg-blue-600 text-white p-4 shadow-md">
-        <h1 class="text-2xl font-bold">My Sample Page</h1>
-    </header>
+  <main class="max-w-4xl mx-auto p-6 space-y-12">
 
-    <!-- Main Content -->
-    <main class="p-6">
-        <div class="max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-6">
-            <h2 class="text-xl font-semibold mb-4">Welcome!</h2>
-            <p class="mb-4">This is a simple page styled with <span class="font-bold">Tailwind CSS</span> and powered by
-                JavaScript.</p>
+    <section id="about" aria-label="About Me">
+      <h2 class="text-2xl font-semibold text-blue-900 border-b-4 border-blue-800 pb-1 mb-4">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        Experienced Full-Stack Developer skilled in PHP, Laravel, ReactJS, Node.js, and Django. Specialized in building SaaS platforms, Chrome extensions, and scalable real-time web applications. Proficient with cloud tools (Amazon S3) and payment gateway integrations (Stripe, PayPal, Paddle).
+      </p>
+    </section>
 
-            <button id="clickMeBtn"
-                class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-md transition">
-                Click Me
-            </button>
+    <section id="skills" aria-label="Skills and Expertise">
+      <h2 class="text-2xl font-semibold text-blue-900 border-b-4 border-blue-800 pb-1 mb-4">Skills & Expertise</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">PHP</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Laravel</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Node.js</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">ReactJS</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Django</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">HTML5</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">CSS3</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">JavaScript (ES6+)</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Amazon S3</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">AWS Basics</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Stripe</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">PayPal</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Paddle</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Real-time Communication</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">SaaS Architecture</span>
+        <span class="bg-blue-100 text-blue-900 px-3 py-1 rounded-full font-semibold">Chrome Extension Development</span>
+      </div>
+    </section>
 
-            <p id="message" class="mt-4 text-gray-700 hidden">You clicked the button 🎉</p>
+    <section id="projects" aria-label="Notable Projects" >
+      <h2 class="text-2xl font-semibold text-blue-900 border-b-4 border-blue-800 pb-1 mb-6">Notable Projects</h2>
+      <div class="relative overflow-hidden rounded-lg bg-white shadow-lg">
+        <div id="carouselInner" class="flex transition-transform duration-300 ease-in-out">
+          <article class="min-w-full p-6">
+            <h3 class="text-xl font-bold text-blue-900 mb-2">Novalya</h3>
+            <p class="mb-2">Facebook & Instagram CRM enabling bulk messaging and streamlined social media communications.</p>
+            <p class="italic text-gray-700"><strong>Tech Stack:</strong> Laravel, Node.js, ReactJS</p>
+            <p class="font-semibold text-gray-900 mt-2"><strong>Role:</strong> Lead Developer</p>
+          </article>
+          <article class="min-w-full p-6">
+            <h3 class="text-xl font-bold text-blue-900 mb-2">ChatSILO</h3>
+            <p class="mb-2">Chrome extension for managing and automating Facebook conversations for marketers and entrepreneurs.</p>
+            <p class="italic text-gray-700"><strong>Tech Stack:</strong> ReactJS, Node.js</p>
+            <p class="font-semibold text-gray-900 mt-2"><strong>Role:</strong> Full-Stack Developer</p>
+          </article>
+          <article class="min-w-full p-6">
+            <h3 class="text-xl font-bold text-blue-900 mb-2">Orrderly</h3>
+            <p class="mb-2">SaaS platform for order management and automation.</p>
+            <p class="italic text-gray-700"><strong>Tech Stack:</strong> Laravel, ReactJS</p>
+            <p class="font-semibold text-gray-900 mt-2"><strong>Role:</strong> Backend & API Integration</p>
+          </article>
+          <article class="min-w-full p-6">
+            <h3 class="text-xl font-bold text-blue-900 mb-2">Sendtric</h3>
+            <p class="mb-2">SaaS tool for generating countdown timers for email marketing.</p>
+            <p class="italic text-gray-700"><strong>Tech Stack:</strong> PHP, JavaScript</p>
+            <p class="font-semibold text-gray-900 mt-2"><strong>Role:</strong> Full-Stack Developer</p>
+          </article>
         </div>
-    </main>
+        <button id="prevBtn" aria-label="Previous project" class="absolute top-1/2 left-3 transform -translate-y-1/2 bg-blue-900 text-white rounded-full p-2 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-yellow-400">&#10094;</button>
+        <button id="nextBtn" aria-label="Next project" class="absolute top-1/2 right-3 transform -translate-y-1/2 bg-blue-900 text-white rounded-full p-2 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-yellow-400">&#10095;</button>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center p-4 mt-10">
-        <p>&copy; 2025 My Website</p>
-    </footer>
+    <section id="achievements" aria-label="Achievements and Certifications">
+      <h2 class="text-2xl font-semibold text-blue-900 border-b-4 border-blue-800 pb-1 mb-4">Achievements & Certifications</h2>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+        <li><strong>Agile with Atlassian Jira</strong> (Atlassian University, Coursera) – Sep 24, 2023</li>
+        <li><strong>AWS S3 Basics</strong> (Coursera Project Network) – Aug 9, 2025</li>
+      </ul>
+    </section>
 
-    <!-- External JavaScript -->
-    <script src="script.js"></script>
+    <section id="contact" aria-label="Contact Information">
+      <h2 class="text-2xl font-semibold text-blue-900 border-b-4 border-blue-800 pb-1 mb-4">Contact</h2>
+      <ul class="space-y-2 text-lg">
+        <li>Email: <a href="mailto:er.gautambhatt@yahoo.com" class="text-blue-700 hover:underline" target="_blank" rel="noopener">er.gautambhatt@yahoo.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/ergautambhatt3/" class="text-blue-700 hover:underline" target="_blank" rel="noopener">linkedin.com/in/ergautambhatt3/</a></li>
+        <li>GitHub: <a href="https://github.com/Er-GautamBhatt" class="text-blue-700 hover:underline" target="_blank" rel="noopener">github.com/Er-GautamBhatt</a></li>
+        <li>Portfolio: <a href="https://er-gautambhatt.github.io/" class="text-blue-700 hover:underline" target="_blank" rel="noopener">er-gautambhatt.github.io</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+<script>
+  const carouselInner = document.getElementById('carouselInner');
+  const carouselItems = carouselInner.children;
+  const totalItems = carouselItems.length;
+  let currentIndex = 0;
+
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  function updateCarousel() {
+    carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+    for(let i=0; i < totalItems; i++) {
+      carouselItems[i].setAttribute('aria-hidden', i !== currentIndex);
+    }
+  }
+
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % totalItems;
+    updateCarousel();
+  });
+
+  // Initialize aria-hidden attributes for accessibility
+  updateCarousel();
+</script>
+
 </body>
-
 </html>
