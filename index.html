@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Tailwind Page</title>
+
+    <!-- External Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Custom Styles (optional) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4 shadow-md">
+        <h1 class="text-2xl font-bold">My Sample Page</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-6">
+        <div class="max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-6">
+            <h2 class="text-xl font-semibold mb-4">Welcome!</h2>
+            <p class="mb-4">This is a simple page styled with <span class="font-bold">Tailwind CSS</span> and powered by
+                JavaScript.</p>
+
+            <button id="clickMeBtn"
+                class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-md transition">
+                Click Me
+            </button>
+
+            <p id="message" class="mt-4 text-gray-700 hidden">You clicked the button 🎉</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+        <p>&copy; 2025 My Website</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
