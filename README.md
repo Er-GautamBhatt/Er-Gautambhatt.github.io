@@ -52,7 +52,7 @@ Experienced Full-Stack Developer skilled in PHP, Laravel, ReactJS, Node.js, and 
 - **Email:** [[your.email@example.com]](mailto:er.gautambhatt@yahoo.com)
 - **LinkedIn:** [[Your LinkedIn URL]](https://www.linkedin.com/in/ergautambhatt3/)
 - **GitHub:** [[Your GitHub URL]](https://github.com/Er-GautamBhatt)
-- **Portfolio:** [Your Website]
+- **Portfolio:** [[Your Website]](https://er-gautambhatt.github.io/)
 
 ---
 
