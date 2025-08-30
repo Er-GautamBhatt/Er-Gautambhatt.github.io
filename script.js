@@ -8,5 +8,3 @@ document.addEventListener("DOMContentLoaded", function () {
     button.disabled = true;
   });
 });
-
-console.log("hi2");
